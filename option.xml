@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<categories>
+			<category name="user.distinguished">
+				<parent>user</parent>
+			</category>
+			<category name="user.distinguished.display">
+				<parent>user.distinguished</parent>
+			</category>
+			<category name="user.distinguished.condition">
+				<parent>user.distinguished</parent>
+			</category>
+			<category name="user.distinguished.data">
+				<parent>user.distinguished</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="user_distinguished_count">
+				<categoryname>user.distinguished.display</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>10</defaultvalue>
+				<minvalue>3</minvalue>
+				<maxvalue>100</maxvalue>
+			</option>
+			<option name="user_distinguished_display">
+				<categoryname>user.distinguished.display</categoryname>
+				<optiontype>radioButton</optiontype>
+				<defaultvalue>left</defaultvalue>
+				<selectoptions>left:wcf.acp.option.user_distinguished_display.left
+right:wcf.acp.option.user_distinguished_display.right
+				</selectoptions>
+			</option>
+			
+			<option name="user_distinguished_exclude_disabled">
+				<categoryname>user.distinguished.condition</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="user_distinguished_exclude_banned">
+				<categoryname>user.distinguished.condition</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="user_distinguished_last_activity">
+				<categoryname>user.distinguished.condition</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>365</defaultvalue>
+				<minvalue>0</minvalue>
+				<maxvalue>99999</maxvalue>
+				<suffix>days</suffix>
+			</option>
+			
+			<option name="user_distinguished_exclude_groups">
+				<categoryname>user.distinguished.condition</categoryname>
+				<optiontype>distinguishedGroup</optiontype>
+			</option>
+			
+			<option name="user_distinguished_options">
+				<categoryname>user.distinguished.data</categoryname>
+				<optiontype>distinguished</optiontype>
+				<issortable>1</issortable>
+			</option>
+		</options>
+	</import>
+</data>

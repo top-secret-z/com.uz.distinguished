@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.profile.canViewDistinguishedList"><![CDATA[Kann Angesehene Mitglieder-Liste sehen]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.distinguished"><![CDATA[Angesehene Mitglieder]]></item>
+		<item name="wcf.acp.option.category.user.distinguished.condition"><![CDATA[Mitglieder]]></item>
+		<item name="wcf.acp.option.category.user.distinguished.data"><![CDATA[Daten]]></item>
+		<item name="wcf.acp.option.category.user.distinguished.display"><![CDATA[Anzeige]]></item>
+		<item name="wcf.acp.option.user_distinguished_count"><![CDATA[Anzahl der Mitglieder]]></item>
+		<item name="wcf.acp.option.user_distinguished_display"><![CDATA[Anzeige der Werte]]></item>
+		<item name="wcf.acp.option.user_distinguished_display.left"><![CDATA[Links - über dem Benutzer-Avatar]]></item>
+		<item name="wcf.acp.option.user_distinguished_display.right"><![CDATA[Rechts - am rechten Rand, blendet die Benutzer-Schaltflächen aus]]></item>
+		<item name="wcf.acp.option.user_distinguished_exclude_banned"><![CDATA[Gesperrte Benutzer ausschließen]]></item>
+		<item name="wcf.acp.option.user_distinguished_exclude_disabled"><![CDATA[Deaktivierte Benutzer ausschließen]]></item>
+		<item name="wcf.acp.option.user_distinguished_exclude_groups"><![CDATA[Benutzergruppen ausschließen]]></item>
+		<item name="wcf.acp.option.user_distinguished_last_activity"><![CDATA[Letzte Aktivität]]></item>
+		<item name="wcf.acp.option.user_distinguished_last_activity.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} an, wie lange die letzte Aktivität maximal zurückliegen darf. 0 eingeben, um diese Bedingung auszuschalten.]]></item>
+		<item name="wcf.acp.option.user_distinguished_options"><![CDATA[Ausgewählte Daten anzeigen]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.distinguished.activityPoints"><![CDATA[Punkte]]></item>
+		<item name="wcf.user.distinguished.articles"><![CDATA[Artikel]]></item>
+		<item name="wcf.user.distinguished.distAttachments"><![CDATA[Anhänge]]></item>
+		<item name="wcf.user.distinguished.distComments"><![CDATA[Kommentare]]></item>
+		<item name="wcf.user.distinguished.distFollowers"><![CDATA[Follower]]></item>
+		<item name="wcf.user.distinguished.likesReceived"><![CDATA[Reaktionen]]></item>
+		<item name="wcf.user.distinguished.profileHits"><![CDATA[Profilaufrufe]]></item>
+		<item name="wcf.user.distinguished.trophyPoints"><![CDATA[Trophäen]]></item>
+		<item name="wcf.user.distinguished.tab.activityPoints"><![CDATA[Punkte]]></item>
+		<item name="wcf.user.distinguished.tab.articles"><![CDATA[Artikel]]></item>
+		<item name="wcf.user.distinguished.tab.distAttachments"><![CDATA[Anhänge]]></item>
+		<item name="wcf.user.distinguished.tab.distComments"><![CDATA[Kommentare]]></item>
+		<item name="wcf.user.distinguished.tab.distFollowers"><![CDATA[Follower]]></item>
+		<item name="wcf.user.distinguished.tab.likesReceived"><![CDATA[Reaktionen]]></item>
+		<item name="wcf.user.distinguished.tab.profileHits"><![CDATA[Profilaufrufe]]></item>
+		<item name="wcf.user.distinguished.tab.trophyPoints"><![CDATA[Trophäen]]></item>
+	</category>
+</language>

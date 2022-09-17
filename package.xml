@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.uz.distinguished" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/package.xsd">
+	<packageinformation>
+		<packagename>Distinguished Members</packagename>
+		<packagedescription>Displays members with most achievements on a page.</packagedescription>
+		<packagename language="de">Angesehene Mitglieder</packagename>
+		<packagedescription language="de">Zeigt Mitglieder mit den meisten Errungenschaften auf einer Seite.</packagedescription>
+		<version>5.5.0</version>
+		<date>2022-05-25</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Zaydowicz</author>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="5.3.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<optionalpackages>
+		<optionalpackage file="optionals/com.uz.distinguished.blog.tar">com.uz.distinguished.blog</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.calendar.tar">com.uz.distinguished.calendar</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.easymedia.image.tar">com.uz.distinguished.easymedia.image</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.easymedia.video.tar">com.uz.distinguished.easymedia.video</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.filebase.tar">com.uz.distinguished.filebase</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.gallery.tar">com.uz.distinguished.gallery</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.jcoins.tar">com.uz.distinguished.jcoins</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.lexicon.tar">com.uz.distinguished.lexicon</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.marketplace.tar">com.uz.distinguished.marketplace</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.poi.tar">com.uz.distinguished.poi</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.show.tar">com.uz.distinguished.show</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.wbb.tar">com.uz.distinguished.wbb</optionalpackage>
+		<optionalpackage file="optionals/com.uz.distinguished.webdisk.tar">com.uz.distinguished.webdisk</optionalpackage>
+	</optionalpackages>
+	
+	<instructions type="install">
+		<instruction type="sql">install.sql</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="acpTemplate">acptemplates.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="page">page.xml</instruction>
+		<instruction type="menuItem">menuItem.xml</instruction>
+		<instruction type="packageInstallationPlugin">packageInstallationPlugin.xml</instruction>
+		<instruction type="distinguished">distinguished.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.2.*">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.3.*">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="5.4.*">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+</package>

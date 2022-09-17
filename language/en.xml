@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.profile.canViewDistinguishedList"><![CDATA[Can view Distinguished Members List]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.distinguished"><![CDATA[Distinguished Members]]></item>
+		<item name="wcf.acp.option.category.user.distinguished.condition"><![CDATA[Members]]></item>
+		<item name="wcf.acp.option.category.user.distinguished.data"><![CDATA[Data]]></item>
+		<item name="wcf.acp.option.category.user.distinguished.display"><![CDATA[Display]]></item>
+		<item name="wcf.acp.option.user_distinguished_count"><![CDATA[Number of Members]]></item>
+		<item name="wcf.acp.option.user_distinguished_display"><![CDATA[Display of Values]]></item>
+		<item name="wcf.acp.option.user_distinguished_display.left"><![CDATA[Left - above the user avatar]]></item>
+		<item name="wcf.acp.option.user_distinguished_display.right"><![CDATA[Right - at the right edge, hiding the user navigation buttons]]></item>
+		<item name="wcf.acp.option.user_distinguished_exclude_banned"><![CDATA[Exclude banned Users]]></item>
+		<item name="wcf.acp.option.user_distinguished_exclude_disabled"><![CDATA[Exclude disabled Users]]></item>
+		<item name="wcf.acp.option.user_distinguished_exclude_groups"><![CDATA[Exclude User Groups]]></item>
+		<item name="wcf.acp.option.user_distinguished_last_activity"><![CDATA[Last Activity]]></item>
+		<item name="wcf.acp.option.user_distinguished_last_activity.description"><![CDATA[Enter how long the last activity may date back. Enter 0 to switch off this condition.]]></item>
+		<item name="wcf.acp.option.user_distinguished_options"><![CDATA[Show selected Data]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.distinguished.activityPoints"><![CDATA[Points]]></item>
+		<item name="wcf.user.distinguished.articles"><![CDATA[Articles]]></item>
+		<item name="wcf.user.distinguished.distAttachments"><![CDATA[Attachments]]></item>
+		<item name="wcf.user.distinguished.distComments"><![CDATA[Comments]]></item>
+		<item name="wcf.user.distinguished.distFollowers"><![CDATA[Followers]]></item>
+		<item name="wcf.user.distinguished.likesReceived"><![CDATA[Reactions]]></item>
+		<item name="wcf.user.distinguished.profileHits"><![CDATA[Profile Hits]]></item>
+		<item name="wcf.user.distinguished.trophyPoints"><![CDATA[Trophies]]></item>
+		<item name="wcf.user.distinguished.tab.activityPoints"><![CDATA[Points]]></item>
+		<item name="wcf.user.distinguished.tab.articles"><![CDATA[Articles]]></item>
+		<item name="wcf.user.distinguished.tab.distAttachments"><![CDATA[Attachments]]></item>
+		<item name="wcf.user.distinguished.tab.distComments"><![CDATA[Comments]]></item>
+		<item name="wcf.user.distinguished.tab.distFollowers"><![CDATA[Followers]]></item>
+		<item name="wcf.user.distinguished.tab.likesReceived"><![CDATA[Reactions]]></item>
+		<item name="wcf.user.distinguished.tab.profileHits"><![CDATA[Profile Hits]]></item>
+		<item name="wcf.user.distinguished.tab.trophyPoints"><![CDATA[Trophies]]></item>
+	</category>
+</language>
