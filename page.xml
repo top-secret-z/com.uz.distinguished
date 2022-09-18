@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
-	<import>
-		<page identifier="com.uz.wcf.DistinguishedList">
-			<pageType>system</pageType>
-			<controller>wcf\page\DistinguishedListPage</controller>
-			<name language="de">Angesehene Mitglieder</name>
-			<name language="en">Distinguished Members</name>
-			<parent>com.woltlab.wcf.MembersList</parent>
-			<permissions>user.profile.canViewDistinguishedList</permissions>
-			<allowSpidersToIndex>1</allowSpidersToIndex>
-			
-			<content language="en">
-				<title>Distinguished Members</title>
-			</content>
-			<content language="de">
-				<title>Angesehene Mitglieder</title>
-			</content>
-		</page>
+    <import>
+        <page identifier="com.uz.wcf.DistinguishedList">
+            <pageType>system</pageType>
+            <controller>wcf\page\DistinguishedListPage</controller>
+            <name language="de">Angesehene Mitglieder</name>
+            <name language="en">Distinguished Members</name>
+            <parent>com.woltlab.wcf.MembersList</parent>
+            <permissions>user.profile.canViewDistinguishedList</permissions>
+            <allowSpidersToIndex>1</allowSpidersToIndex>
 
-	</import>
+            <content language="en">
+                <title>Distinguished Members</title>
+            </content>
+            <content language="de">
+                <title>Angesehene Mitglieder</title>
+            </content>
+        </page>
+
+    </import>
 </data>

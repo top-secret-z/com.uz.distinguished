@@ -3,5 +3,5 @@
 <nav class="distCount">{#$user->$sortField}</nav>
 
 <dl class="plain inlineDataList small">
-	{include file='userInformationStatistics'}
+    {include file='userInformationStatistics'}
 </dl>
