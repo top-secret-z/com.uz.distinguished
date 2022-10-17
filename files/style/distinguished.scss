@@ -1,32 +1,32 @@
 .containerList {
-	> li {
-		
-		@include screen-md-down {
-			.distCount {
-				position: absolute;
-				right: 10px;
-				top: 18px;
-				font-size: 16px;
-			}
-		}
-		
-		@include screen-lg {
-			.distCount {
-				position: absolute;
-				right: 10px;
-				top: 14px;
-				font-size: 20px;
-			}
-		}
-	}
+    > li {
+
+        @include screen-md-down {
+            .distCount {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+                font-size: 16px;
+            }
+        }
+
+        @include screen-lg {
+            .distCount {
+                position: absolute;
+                right: 10px;
+                top: 14px;
+                font-size: 20px;
+            }
+        }
+    }
 }
 
 .distLeft {
-	@include screen-md-down {
-		font-size: 16px;
-	}
-	
-	@include screen-lg {
-		font-size: 20px;
-	}
+    @include screen-md-down {
+        font-size: 16px;
+    }
+
+    @include screen-lg {
+        font-size: 20px;
+    }
 }

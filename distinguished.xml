@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/distinguished.xsd">
-	<import>
-		<distinguished name="activityPoints">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="articles">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="distComments">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="distAttachments">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="likesReceived">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="distFollowers">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="profileHits">
-			<application>WCF</application>
-		</distinguished>
-		<distinguished name="trophyPoints">
-			<application>WCF</application>
-		</distinguished>
-	</import>
+    <import>
+        <distinguished name="activityPoints">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="articles">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="distComments">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="distAttachments">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="likesReceived">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="distFollowers">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="profileHits">
+            <application>WCF</application>
+        </distinguished>
+        <distinguished name="trophyPoints">
+            <application>WCF</application>
+        </distinguished>
+    </import>
 </data>
